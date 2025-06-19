@@ -1,0 +1,22 @@
+stages:
+    - build
+default:
+    image: docker:latest
+    services:
+        - docker:dind 
+        
+variables:
+    DOCKER_HOST: "tcp://docker:2375"
+    DOCKER_TLS_CERTDIR: "" 
+
+build_Docker_job:
+    stage: build
+    tags:
+        - VM-azure
+    before_script:
+        - docker version
+    script:
+        - echo "Building the project"
+        - docker build -t gitlabimage_first .
+        - docker images
+    
