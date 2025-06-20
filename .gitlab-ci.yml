@@ -17,6 +17,9 @@ build_Docker_job:
         - docker version
     script:
         - echo "Building the project"
-        - docker build -t gitlabimage_first .
-        - docker images
+        - docker login registry.gitlab.com -u ijerishweta -p $TOKEN
+        - docker build -t registry.gitlab.com/devops_ci-cd2/myfirstgitlab_cicd .
+        - docker push registry.gitlab.com/devops_ci-cd2/myfirstgitlab_cicd
+    
+
     
