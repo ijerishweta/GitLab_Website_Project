@@ -1,5 +1,7 @@
 stages:
     - build
+    - deploy
+
 default:
     image: docker:latest
     services:
@@ -12,7 +14,7 @@ variables:
 build_Docker_job:
     stage: build
     tags:
-        - VM-azure
+        - VM-Azure
     before_script:
         - docker version
     script:
@@ -20,6 +22,19 @@ build_Docker_job:
         - docker login registry.gitlab.com -u ijerishweta -p $TOKEN
         - docker build -t registry.gitlab.com/devops_ci-cd2/myfirstgitlab_cicd .
         - docker push registry.gitlab.com/devops_ci-cd2/myfirstgitlab_cicd
-    
+    artifacts:
+        paths:
+            - $CI_PROJECT_DIR/
+        exclude:
+            - Dockerfile
 
-    
+pages:
+    stage: deploy
+    tags:
+        - VM-Azure
+    script:
+        - mkdir public
+        - cp *.html public/
+    artifacts:
+        paths:
+             - public
