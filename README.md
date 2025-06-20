@@ -25,4 +25,7 @@ This setup is ideal for learning and applying modern DevOps practices, particula
 
 ![image](https://github.com/user-attachments/assets/23377914-ae48-4ad0-98ff-47ff1a95870a)
 
+![image](https://github.com/user-attachments/assets/c619507e-c838-4304-9df8-ef84b078a098)
+
+
 
