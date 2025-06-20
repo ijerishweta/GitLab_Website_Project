@@ -1,31 +1,36 @@
-# 🚀 GitLab CI/CD with Docker - Automated Deployment Pipeline
+# 🚀 GitLab CI/CD Website Hosting with Docker, Artifacts, Container Registry & Pages
 
-This project showcases the implementation of a CI/CD pipeline using GitLab CI/CD and Docker to automate the build and deployment process of a static web application.
+This project demonstrates a fully automated DevOps workflow using GitLab CI/CD for building, containerizing, storing, and deploying a static website. It leverages Docker, GitLab Container Registry, GitLab Pages, and CI/CD artifacts for a modern and efficient deployment pipeline.
 
-It demonstrates how to:
-
-Use GitLab CI/CD to define a custom pipeline with stages like build and deploy.
-
-Leverage Docker to containerize the application for consistent and reproducible environments.
-
-Automatically build a Docker image and deploy a static website using Nginx as the web server.
-
-Enable seamless, automated delivery of code from commit to container execution.
-
-This setup is ideal for learning and applying modern DevOps practices, particularly in the areas of automation, containerization, and continuous deployment workflows.
-
+Key Features
+GitLab CI/CD pipeline to automate build and deployment
+Docker to containerize the static web application
+Artifacts to store and pass build results across pipeline stages
+GitLab Container Registry to store and version Docker images
+GitLab Pages for website hosting
+Simple, reproducible, and fully automated deployment
 
 
 ![image](https://github.com/user-attachments/assets/9155afc5-cb1a-42f2-9ee1-4927d6d5baa0)
 
-
-![image](https://github.com/user-attachments/assets/c6b4792a-51e3-41d4-9285-395ede48ded4)
-
-![image](https://github.com/user-attachments/assets/e5b004a8-6f9b-44fc-920a-b66e19f4e557)
-
 ![image](https://github.com/user-attachments/assets/23377914-ae48-4ad0-98ff-47ff1a95870a)
 
 ![image](https://github.com/user-attachments/assets/c619507e-c838-4304-9df8-ef84b078a098)
+
+![image](https://github.com/user-attachments/assets/ea29e26f-62d0-40db-b885-7ba98a6e7bf5)
+
+![image](https://github.com/user-attachments/assets/04da7ad7-3fdb-4c95-95ee-9294092db0ed)
+
+![image](https://github.com/user-attachments/assets/f8275970-3be6-4fa0-8803-eae57d85cf04)
+
+![image](https://github.com/user-attachments/assets/28f424f8-8c67-466b-a797-1a27b18fc3da)
+
+![image](https://github.com/user-attachments/assets/80f70c80-8711-4022-b21f-bab19dbd7df3)
+
+
+
+
+
 
 
 
