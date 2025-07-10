@@ -1,4 +1,4 @@
-# 🚀 GitLab CI/CD Website Hosting with Docker, Artifacts, Container Registry & Pages
+# 🚀 GitLab CI/CD Website Hosting with Docker, Artifacts, Container Registry and Pages
 
 This project demonstrates a fully automated DevOps workflow using GitLab CI/CD for building, containerizing, storing, and deploying a static website. It leverages Docker, GitLab Container Registry, GitLab Pages, and CI/CD artifacts for a modern and efficient deployment pipeline.
 
